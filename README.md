@@ -7,14 +7,23 @@
 ## 📋 Índice
 
 [Paso 1 — Carga de Datos](#paso-1--carga-de-datos)
+
 [Paso 2 — Identificar Valores Nulos](#paso-2--identificar-valores-nulos-nan)
+
 [Paso 3 — Manejar Valores Nulos](#paso-3--manejar-valores-nulos)
+
 [Paso 4 — Identificar Duplicados](#paso-4--identificar-filas-duplicadas)
+
 [Paso 5 — Eliminar Duplicados](#paso-5--eliminar-filas-duplicadas)
+
 [Flujo Completo de Limpieza](#flujo-completo-de-limpieza)
+
 [Buenas Prácticas](#buenas-prácticas)
+
 [Cheatsheet — Referencia Rápida](#cheatsheet--referencia-rápida)
+
 [Recursos](#recursos)
+
 [🎮 ¡Pon a prueba tus conocimientos!](#-pon-a-prueba-tus-conocimientos)
 
 
