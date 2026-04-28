@@ -220,7 +220,7 @@ print(f"Shape final: {df.shape}")
 
 ## Cheatsheet — Referencia Rápida
 
-| 📂 CARGA              🔍 EXPLORAR                 ⚠️ NULOS                      🔁 DUPLICADOS                     |
+| 📂 CARGA             | 🔍 EXPLORAR               | ⚠️ NULOS                     | 🔁 DUPLICADOS                     |
 |----------------------|---------------------------|------------------------------|-----------------------------------|
 | `pd.read_csv()`      | `df.shape`                | `df.isnull().sum()`          | `df.duplicated().sum()`           |
 | `pd.read_excel()`    | `df.info()`               | `df.dropna()`                | `df[df.duplicated()]`             |
