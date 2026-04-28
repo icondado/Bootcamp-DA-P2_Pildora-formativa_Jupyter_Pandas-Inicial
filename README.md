@@ -220,15 +220,15 @@ print(f"Shape final: {df.shape}")
 
 ## Cheatsheet — Referencia Rápida
 
-┌─────────────────────┬──────────────────────────┬──────────────────────────┬───────────────────────────────┐
-│ 📂 CARGA            │ 🔍 EXPLORAR              │ ⚠️ NULOS                 │ 🔁 DUPLICADOS                 │
-├─────────────────────┼──────────────────────────┼──────────────────────────┼───────────────────────────────┤
-│ pd.read_csv()       │ df.shape                 │ df.isnull().sum()        │ df.duplicated().sum()         │
-│ pd.read_excel()     │ df.info()                │ df.dropna()              │ df[df.duplicated()]           │
-│ pd.read_json()      │ df.describe()            │ df.dropna(how='all')     │ df.drop_duplicates()          │
+┌─────────────────────┬──────────────────────────┬──────────────────────────┬────────────────────────────────┐
+│ 📂 CARGA            │ 🔍 EXPLORAR              │ ⚠️ NULOS                 │ 🔁 DUPLICADOS                │
+├─────────────────────┼──────────────────────────┼──────────────────────────┼────────────────────────────────┤
+│ pd.read_csv()       │ df.shape                 │ df.isnull().sum()        │ df.duplicated().sum()          │
+│ pd.read_excel()     │ df.info()                │ df.dropna()              │ df[df.duplicated()]            │
+│ pd.read_json()      │ df.describe()            │ df.dropna(how='all')     │ df.drop_duplicates()           │
 │ pd.read_sql()       │ df.head() / df.tail()    │ df.fillna(valor)         │ df.drop_duplicates(keep='last')│
-│ df.copy()           │ df.dtypes / df.columns   │ df['c'].fillna(media)    │ df.drop_duplicates(keep=False)│
-└─────────────────────┴──────────────────────────┴──────────────────────────┴───────────────────────────────┘
+│ df.copy()           │ df.dtypes / df.columns   │ df['c'].fillna(media)    │ df.drop_duplicates(keep=False) │
+└─────────────────────┴──────────────────────────┴──────────────────────────┴────────────────────────────────┘
 
 
 
